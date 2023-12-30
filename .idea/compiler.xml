@@ -17,9 +17,9 @@
     <bytecodeTargetLevel>
       <module name="billing" target="17" />
       <module name="config-service" target="17" />
-      <module name="customer-service" target="1.5" />
+      <module name="customer-service" target="17" />
       <module name="gateway-service" target="17" />
-      <module name="inventory-service" target="1.5" />
+      <module name="inventory-service" target="17" />
       <module name="order-service" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -27,7 +27,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="billing" options="-parameters" />
       <module name="config-service" options="-parameters" />
+      <module name="customer-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
+      <module name="inventory-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
     </option>
   </component>
